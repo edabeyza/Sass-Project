@@ -30,6 +30,7 @@
   text-decoration: none;
   font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
   transition: all 1s;
 }
 .nav__link:hover {
@@ -37,6 +38,14 @@
 }
 .nav__link--active {
   color: #FF652F;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  line-height: 1;
+  background-color: #272727;
+  color: #eee;
 }
 
 /*# sourceMappingURL=main.css.map */
