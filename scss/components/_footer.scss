@@ -1,8 +1,23 @@
-.home-social{
-    font-size: 2.5rem;
+.footer-social{
     position: fixed;
     bottom: 1rem;
     left: 1rem;
+
+    & .footer-social-link{
+        font-size: 2.5rem;
+
+        a{
+            padding: 1rem;
+        }
+    }
+      
+
+     
+    &  .footer-social-copy{
+        right: 1rem;
+        position: fixed;
+        bottom: 1rem;
+    }
     
     
     & a{
@@ -16,4 +31,21 @@
            
         }
     }
+
+    
+}
+
+//about
+.vertical{
+    writing-mode: vertical-lr;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+
+    a{
+        padding: 0.3rem 0
+    }
+    
 }
