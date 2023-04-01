@@ -49,3 +49,28 @@
     }
     
 }
+
+//contact
+.contact-footer-social{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 1rem 0;
+
+    .contact-copy{
+        font-size: 1rem;
+    }
+
+    & a{
+        color: white;
+        padding: 0px 6px;
+        @include transition(1s);
+
+        &:hover{
+            color: brown;
+            // transition: all is ease-in-out;
+           
+        }
+    }
+}

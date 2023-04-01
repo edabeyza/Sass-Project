@@ -1,0 +1,39 @@
+.contact-bgImg-container{
+    @include bgImg(100vh, $main-bgImg-path);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+    
+
+
+    &__list{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    &__item{
+        font-size: 1.3rem;
+        text-align: center;
+        
+    }
+        .text-secondary{
+            color: brown;
+        }
+    
+
+        
+}
